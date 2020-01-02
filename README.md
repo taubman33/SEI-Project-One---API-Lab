@@ -10,7 +10,36 @@ API: https://jokes.one/api/joke/
 
 API Snippet:
 
-Wireframe: imgur link, ps img, hand sketch,
+<code class="language-json">
+{
+  "success": {
+    "total": 1
+  },
+  "contents": {
+    "jokes": [
+      {
+        "category": "jod",
+        "title": "Joke of the day ",
+        "description": "Joke of the day ",
+        "background": "",
+        "date": "2019-01-23",
+        "joke": {
+          "title": "Courtship Signals",
+          "length": "83",
+          "clean": "1",
+          "racial": "0",
+          "date": "2019-01-23",
+          "id": "He3_WpaNfBV1Hs7zMLsR4QeF",
+          "text": "Q. Why shouldn't you marry a tennis player?\r\nA. Because Love means nothing to them."
+        }
+      }
+    ],
+    "copyright": "2018-20 https://jokes.one"
+  }
+} 
+
+Wireframe: https://wireframe.cc/yu3pEk
+           https://imgur.com/a/BUHHQRZ  I added a bit of color in Photoshop
 
 MVP:
 	Add link to API
@@ -30,8 +59,7 @@ Goals:
 	Th post mvp
 	F: present
 
-Priority Matrix: PS doc
+Priority Matrix:  https://i.imgur.com/BPOL4Qm.jpg
 
 
-Timeframes:
-ps doc
+Timeframes:https://imgur.com/a/9DXRNSL Though I'm sure I'll be adding a substantial amount to this as I go on
